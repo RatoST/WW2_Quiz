@@ -1,0 +1,85 @@
+ 
+.container {
+    background-color: #287800;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2 {
+    margin: 10px;
+}
+
+.answer {
+    border: 1px solid #854141;
+    padding: 5px 10px 5px 45px;
+    width: 610px;
+    text-align: left;
+    margin-top: 10px;
+    position: relative;
+    font-size: 22px;
+    cursor: pointer;
+    transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+.answer.selected {
+    color: #4f4c4c;
+    background-color: #a6ff92;
+}
+
+.answer:hover {
+    color: #4f4c4c;
+    background-color: #a6ff92;
+}
+
+.answer:focus {
+    outline: none;
+}
+
+.results span.correct {
+    color: #a6ff92;
+}
+
+.results span.failed {
+    color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.letter {
+    color: #4f4c4c;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    height: 28px;
+    top: 0;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.btn {
+    color: #4f4c4c;
+    background-color: #f4f4f4;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #4f4c4c;
+    background-color: #a6ff92;
+    font-weight: bold;
+}
+
